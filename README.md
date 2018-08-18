@@ -69,6 +69,8 @@ Após realizar a instalação,
 
 Abra o console na pasta do projeto e execute o comando: mvn clean package.
 
+Obs: Caso não tenha o mesmo ambiente que o meu, você poderá ignorar os testes assim: mvn clean package -DskipTests
+
 Será gerado o arquivo .war dentro da pasta target com o nome sic-rest-1.0.0.war
 
 Renome para sic-rest.war.
