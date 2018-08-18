@@ -136,7 +136,7 @@ public class ClienteRestTest {
 	
 	@Test
 	/**
-	 * Teste para simular 1000 requisições concorrentes e que será resolvida em 6s.
+	 * Teste para simular 1000 requisições concorrentes e que será resolvida em 10s.
 	 * Maquina com 16 GB e Core i7
 	 * @throws Exception
 	 */
@@ -162,7 +162,7 @@ public class ClienteRestTest {
 			new Thread(new RequisicaoTop10(idCliente)).start();
 		}
 		
-		Thread.sleep(6 * 1000);
+		Thread.sleep(10 * 1000);
 		
 		assertEquals(1000, ClienteRestTest.totalRequisicoes);
 	}
