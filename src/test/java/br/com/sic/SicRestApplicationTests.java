@@ -1,4 +1,4 @@
-package br.com.sicrest;
+package br.com.sic;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
